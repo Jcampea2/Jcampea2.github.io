@@ -1,0 +1,114 @@
+   .red-text {
+        color: red;
+    }
+    .blue-text {
+    color: blue;
+  }
+  .green-text {
+    color: green;
+  }
+
+  .archivo-black-regular {
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+  .yeseva-one-regular {
+  font-family: "Yeseva One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+  body {
+  background-image: linear-gradient(to bottom, #e6eeff, #b3ccff, #002db3,#660066);
+  min-height: 150vh; 
+  margin: 0; 
+  scroll-behavior:auto;
+}
+    p{ 
+    color: white;
+    }
+
+    h1{
+    color: #f8d33d;
+    font-size: 54px;
+    font-family: "Archivo Black";
+    text-shadow: 3px 3px #000000;
+    }
+
+    h2{
+    color: rgb(252, 252, 252);
+    font-size:42px;
+    font-family:"Archivo Black";
+    position: relative; bottom: 35px; left: 100px;
+    text-shadow: 2px 2px #000000;
+    }
+
+    .btn{ 
+    display: block;
+    background-color: #c8eb07;
+	  color: black;
+    font-family:"Yeseva One";
+    font-size: 45px;
+    text-align:center;
+	  padding: 15px 25px;
+    border: 3px solid;
+    border-color: black; 
+    border-radius: 25px;
+    margin-left: 200px;
+    margin-right: 200px;
+    cursor: pointer;
+	}
+  .btn:hover{
+	  background-color: #acc717;
+    color:white;
+	}
+	.btn:active{
+	  background-color: #5d6d05;
+  }
+
+  .btn2{ 
+    display: block;
+    background-color: #eb0707;
+	  color: black;
+    font-family:"Yeseva One";
+    font-size: 45px;
+    text-align:center;
+	  padding: 15px 25px;
+    border: 3px solid;
+    border-color: black; 
+    border-radius: 25px;
+    margin-left: 200px;
+    margin-right: 200px;
+    cursor: pointer;
+	}
+  .btn2:hover{
+	  background-color: #bb0707;
+    color:white;
+	}
+	.btn2:active{
+	  background-color: #850d0d;
+  }
+
+  .btn3{ 
+    display: block;
+    background-color: #eb6207;
+	  color: black;
+    font-family:"Yeseva One";
+    font-size: 45px;
+    text-align:center;
+	  padding: 15px 25px;
+    border: 3px solid;
+    border-color: black; 
+    border-radius: 25px;
+    margin-left: 200px;
+    margin-right: 200px;
+    cursor: pointer;
+	}
+  .btn3:hover{
+	  background-color: #c2540a;
+    color:white;
+	}
+	.btn3:active{
+	  background-color: #924009;
+  }
