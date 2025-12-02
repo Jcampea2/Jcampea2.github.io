@@ -1,0 +1,507 @@
+
+   Header{
+        background-color: #bb0707;
+	      height: 150px; 
+        width: 1928px;
+        overflow:hidden;
+        transform: translate(-8px, -8px);
+        }
+
+    header h1  {
+      font-size: 45px;
+      font-family: "Archivo Black";
+      transform: translate(14px, 62px);
+    }
+
+    .reel{
+      position: absolute;
+      opacity: 0.75;
+      width: 749px;
+      height: 113px;
+      transform: translate(-59px, 21px);
+      rotate: 22deg;
+      z-index: -1;
+    }
+
+    .reelright{
+      position: absolute;
+      float: right;
+      opacity: 0.75;
+      width: 866px;
+      height: 16px;
+      transform: translate(1048px, 389px);
+      rotate: -15deg;
+      z-index: -1;
+    }
+
+
+    header .btn{ 
+        display: block;
+        background-color: #c8eb07;
+	      color: black;
+        font-family:"Yeseva One";
+        font-size: 32px;
+        width: 201px;
+        height: 35px;
+        text-align:center;
+        border-radius: 25px;
+        cursor: pointer;
+        transform: translate(159px, -48px);;
+        margin:0;
+	    }
+  header  .btn:hover{
+	  background-color: #acc717;
+    color:white;
+	}
+	header .btn:active{
+	  background-color: #5d6d05;
+  }
+
+    header .btn3{ 
+        display: block;
+        background-color: #eb6207;
+	      color: black;
+        font-family:"Yeseva One";
+        font-size: 32px;
+        width: 179px;
+        height: 35px;
+        text-align:center;
+        border-radius: 25px;
+        cursor: pointer;
+        transform: translate(375px, -14px);
+        margin:0;
+	    }
+  header .btn3:hover{
+	  background-color: #c2540a;
+    color:white;
+	}
+	header .btn3:active{
+	  background-color: #924009;
+  }
+
+  header .btn4{ 
+    display: block;
+    background-color: #c74380;
+	color: black;
+    font-family:"Yeseva One";
+    font-size: 32px;
+    width: 179px;
+    height: 35px;
+    text-align:center;
+    border-radius: 25px;
+    cursor: pointer;
+    transform: translate(569px, -83px);
+	}
+  header .btn4:hover{
+	  background-color: #9c3565;
+    color:white;
+	}
+	header .btn4:active{
+	  background-color: #812e55;
+  }
+
+  header .btnc{ 
+    display: inline-block;
+    background-color: #eb0707;
+    color: black;
+    font-family: "Yeseva One";
+    font-size: 32px;
+    width: 130px;
+    height: 38px;
+    text-align: center;
+    border-radius: 25px;
+    transform: translate(1750px, -118px)
+	}
+  
+  header .btnc:hover{
+	  background-color: #f12222;
+    color:white;
+	}
+	header .btnc:active{
+	  background-color: #850d0d;
+  }
+   
+
+    body{
+      background-color: #000000;
+      margin: 0; 
+      scroll-behavior:auto;
+    }
+
+    main h2{
+      color:#ffffff;
+      font-size: 45px;
+      font-family: "Archivo Black";
+      margin-left: 19px;
+      margin-right: 19px;
+    }
+    
+    main h3{
+      color:#ffffff;
+      font-size: 35px;
+      font-family: "Yeseva One";
+      margin-left: 19px;
+      margin-right: 19px;
+    }
+
+    main p{
+      color:#ffffff;
+      font-size: 35px;
+      font-family: "Yeseva One";
+      text-align: center;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+
+    main .blogbox {
+        position: absolute;
+        width: 1917px;
+        height: 470px;
+        background-color: #505050;
+        transform: translate(0px, 20px);
+        z-index: -1;
+        }
+    
+    main h4{
+      color:#ffffff;
+      font-size: 25px;
+      font-family: "Yeseva One";
+      margin-top: 20px;
+      margin-bottom: 20px;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+
+    main .blogbox2 {
+        position: absolute;
+        width: 1920px;
+        height: 205px;
+        background-color: #505050;
+        transform: translate(0px, -2px);
+        z-index: -1;
+      }
+
+    main label{
+      color: #ffffff;
+      font-size: 20px;
+      font-family: "Yeseva One";
+      margin-left: 650px;
+    }
+    main input{
+      width: 250px;
+      align-items:center;
+      margin-left: 650px;
+    }
+    
+    main textarea{
+      width: 750px;
+      margin-left: 650px;
+    }
+
+    main button{
+      width: 150px;
+      height: 60px;
+      text-align: center;
+      margin-left: 850px;
+    }
+
+    footer p{
+      color: #ffffff;
+      font-size: 25px;
+      font-family: "Yeseva One";
+      margin-left: 100px;
+    }
+
+    footer h4{
+      color: #ffffff;
+      font-size: 15px;
+      font-family: "Yeseva One";
+      margin-left: 850px;
+    }
+
+    @media only screen and (max-width:1024px) 
+    {
+      main h2{
+        width: 1800px;
+      }
+
+      main .blogbox{
+        width:  1920px;
+        height: 490px;
+
+      }
+
+      main p{
+        width:  1800px;
+      }
+
+      main .blogbox2{
+        width:  1920px;
+      }
+
+    }
+
+    @media only screen and (min-width:1025px) and (max-width:1440px)
+    {
+      main h2{
+        width: 1820px;
+      }
+
+      main .blogbox{
+        width:  1920px;
+        height: 490px;
+
+      }
+
+      main p{
+        width:  1820px;
+      }
+
+      main .blogbox2{
+        width:  1920px;
+      }
+
+    }
+    @media only screen and (min-width:1441px) and (max-width:1600px)
+    {
+      header {
+        width: 2568px; 
+        }
+      header .btnc  {
+        transform: translate(2350px, -118px);
+      }
+
+      main h2{
+        width: 2500px;
+      }
+
+      main .blogbox{
+        width:2559px;
+        height: 446px;
+
+      }
+
+      main p{
+        width:2500px;
+      }
+
+      main .blogbox2{
+        width:2559px;
+      }
+
+    }
+
+    @media only screen and (min-width: 1921px) and (max-width:2560px)
+    {
+      header {
+        width: 2568px; 
+        }
+
+      header .btnc  {
+        transform: translate(2349px, -118px);
+      }
+
+      main .blogbox{
+        width:2560px;
+        height:422px;
+
+      }
+
+      main h3{
+        margin-right: 0px;
+        width:2490px;
+      }
+      
+      main p{
+        width:2490px;
+      }
+
+      main h4{
+        width:2490px;
+      }
+
+      main .blogbox2{
+        width:2560px;
+      }
+
+
+    }
+
+    @media only screen and (max-width:915px) 
+   {
+      header{
+          width:1000px;
+        }
+
+      header h1  {
+        font-size: 75px;
+        transform: translate(10px, -1px);
+      }
+      
+      header .btn {
+                font-size: 53px;
+                width: 330px;
+                height: 56px;
+                transform: translate(6px, -254px);
+                }
+
+      header .btn3 {
+                font-size: 53px;
+                width: 291px;
+                height: 56px;
+                transform: translate(358px, -199px);
+                }
+
+      header .btn4 {
+                font-size: 53px;
+                width: 291px;
+                height: 57px;
+                transform: translate(671px, -309px);
+                }
+
+      header .btnc {   
+                font-size: 53px;
+                width: 213px;
+                height: 54px;
+                transform: translate(389px, -293px);
+                }
+      main h2{
+                 width: 900px;
+      }
+
+      main .blogbox{
+                  width: 993px;
+                  height: 780px;
+      }
+
+      main h3{
+                width:800px;
+      }
+
+      main p{
+                  font-size: 33px;
+                  width: 900px;
+      }
+
+      main .blogbox2{
+                  width: 993px;
+      }
+
+      main h4{
+                  width: 900px;
+      }
+
+      main label{
+                  margin-left: 250px;
+      }
+
+      main input{
+                  margin-left: 250px;
+      }
+
+      main textarea {
+                  width: 550px;
+                  margin-left: 250px;
+      }
+
+      main button{
+                  margin-left: 450px;
+      }
+
+      footer p{
+                  font-size: 31px;
+                  margin-left: 50px;
+      }
+
+      footer h4{
+                  font-size: 20px;
+                  margin-left: 450px;
+      }
+    }
+
+ @media only screen and (orientation: landscape) and (max-width:915px)
+   {
+      header{
+        width: 1927px;
+      }
+      
+      header h1  {
+        font-size: 75px;
+        transform: translate(10px, -3px);
+      }
+      
+      header .btn {
+                font-size: 53px;
+                width: 326px;
+                height: 56px;
+                transform: translate(263px, -182px);
+                }
+
+      header .btn3 {
+                font-size: 53px;
+                width: 302px;
+                height: 56px;
+                transform: translate(605px, -126px);
+                }
+
+      header .btn4 {
+                font-size: 53px;
+                width: 291px;
+                height: 57px;
+                transform: translate(921px, -238px);
+                }
+
+      header .btnc {   
+                font-size: 53px;
+                width: 213px;
+                height: 54px;
+                transform: translate(1700px, -293px);
+                }
+      main h2{
+                width: 1800px;
+      }
+
+      main .blogbox{
+                width:  1920px;
+                height: 448px;
+      }
+
+      main p{
+                width:  1800px;
+      }
+
+      main h4{
+                width: 1800px;
+      }
+
+      main .blogbox2{
+                width:  1920px;
+      }
+
+      main label{
+                margin-left: 650px;
+      }
+
+      main input{
+                margin-left: 750px;
+      }
+
+      main textarea {
+                width: 550px;
+                margin-left: 750px;
+      }
+
+      main button{
+                margin-left: 750px;
+      }
+
+      footer h4{
+                margin-left: 900px        
+      }
+
+    }
+    
+    
+  
+   
+

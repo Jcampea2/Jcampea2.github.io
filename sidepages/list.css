@@ -1,0 +1,228 @@
+
+   Header{
+        background-color: #c74380;
+	      height: 150px; 
+        width: 1927px;
+        overflow:hidden;
+        transform: translate(-8px, -8px);
+        }
+
+    header h1  {
+      font-size: 45px;
+      font-family: "Archivo Black";
+      transform: translate(7px, 62px);
+    }
+
+    .reel{
+      position: absolute;
+      opacity: 0.75;
+      width: 749px;
+      height: 113px;
+      transform: translate(-59px, 21px);
+      rotate: 22deg;
+      z-index: -1;
+    }
+
+    .reelright{
+      position: absolute;
+      float: right;
+      opacity: 0.75;
+      width: 866px;
+      height: 16px;
+      transform: translate(1048px, 389px);
+      rotate: -15deg;
+      z-index: -1;
+    }
+
+    header .btn{ 
+        display: block;
+        background-color: #c8eb07;
+	      color: black;
+        font-family:"Yeseva One";
+        font-size: 32px;
+        width: 201px;
+        height: 35px;
+        text-align:center;
+        border-radius: 25px;
+        cursor: pointer;
+        transform: translate(342px, -48px);;
+        margin:0;
+	    }
+  header  .btn:hover{
+	  background-color: #acc717;
+    color:white;
+	}
+	header .btn:active{
+	  background-color: #5d6d05;
+  }
+
+    header .btn2{ 
+        display: block;
+        background-color: #eb0707;
+        color: black;
+        font-family: "Yeseva One";
+        font-size: 32px;
+        width: 95px;
+        height: 35px;
+        text-align: center;
+        border-radius: 25px;
+        cursor: pointer;
+        transform:translate(744px, -13px);
+	    }
+  header .btn2:hover{
+	  background-color: #bb0707;
+    color:white;
+	}
+	header .btn2:active{
+	  background-color: #850d0d;
+  }
+
+    header .btn3{ 
+      display: block;
+      background-color: #eb6207;
+	    color: black;
+      font-family:"Yeseva One";
+      font-size: 32px;
+      width: 179px;
+      height: 35px;
+      text-align:center;
+      border-radius: 25px;
+      cursor: pointer;
+      transform: translate(555px, -83px);
+      margin:0;
+	  }
+ header  .btn3:hover{
+	  background-color: #c2540a;
+    color:white;
+	}
+	header .btn3:active{
+	  background-color: #924009;
+  }
+
+  header .btnc{ 
+    display: inline-block;
+    background-color: #eb0707;
+    color: black;
+    font-family: "Yeseva One";
+    font-size: 32px;
+    width: 130px;
+    height: 38px;
+    text-align: center;
+    border-radius: 25px;
+    transform: translate(1750px, -118px)
+	}
+  
+  header .btnc:hover{
+	  background-color: #bb0707;
+    color:white;
+	}
+	header .btnc:active{
+	  background-color: #850d0d;
+  }
+
+    @media only screen and (min-width: 1921px) and (max-width:2560px)
+    {
+      header {
+        width: 2507px; 
+        }
+      header .btnc  {
+        transform: translate(2349px, -118px);
+      }
+    }
+
+    @media only screen and (max-width:915px) 
+   {
+      header{
+          width:1000px;
+        }
+
+      header h1  {
+        font-size: 75px;
+        transform: translate(2px, 14px);
+      }
+      
+      header .btn {
+                font-size: 53px;
+                width: 330px;
+                height: 56px;
+                transform: translate(6px, -254px);
+                }
+
+      header .btn2 {
+                  font-size: 53px;
+                  width: 125px;
+                  height: 65px;
+                  transform: translate(650px, -195px);
+                }
+
+      header .btn3 {
+                font-size: 53px;
+                width: 291px;
+                height: 56px;
+                transform: translate(347px, -309px);
+                }
+
+      header .btnc {   
+                font-size: 53px;
+                width: 213px;
+                height: 54px;
+                transform: translate(553px, -293px);
+                }
+
+    }
+
+ @media only screen and (orientation: landscape) and (max-width:915px)
+   {
+      header{
+        width: 1927px;
+      }
+      
+      header h1  {
+        font-size: 75px;
+        transform: translate(2px, 14px);
+      }
+      
+      header .btn {
+                font-size: 53px;
+                width: 326px;
+                height: 56px;
+                transform: translate(538px, -182px);
+                }
+
+      header .btn2 {
+                  font-size: 53px;
+                  width: 125px;
+                  height: 65px;
+                  transform: translate(1190px, -122px);
+                }
+
+      header .btn3 {
+                font-size: 53px;
+                width: 302px;
+                height: 56px;
+                transform: translate(876px, -238px);
+                }
+
+      header .btnc {   
+                font-size: 53px;
+                width: 213px;
+                height: 54px;
+                transform: translate(1700px, -293px);
+                }
+    }
+
+    body{
+      
+    }
+
+    main h2{
+      
+    }
+
+    main p{
+      
+    }
+
+
+   
+

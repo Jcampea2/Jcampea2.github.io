@@ -1,0 +1,529 @@
+
+   Header{
+        background-color: #f8d33d;
+	      height: 150px; 
+        width: 1927px;
+        overflow:hidden;
+        transform: translate(-8px, -8px);
+        }
+
+    header h1  {
+      font-size: 45px;
+      font-family: "Archivo Black";
+      transform: translate(10px, 62px);
+    }
+
+    .reel{
+      position: absolute;
+      opacity: 0.75;
+      width: 749px;
+      height: 113px;
+      transform: translate(-59px, 21px);
+      rotate: 22deg;
+      z-index: -1;
+    }
+
+    .reelright{
+      position: absolute;
+      float: right;
+      opacity: 0.75;
+      width: 866px;
+      height: 16px;
+      transform: translate(1048px, 389px);
+      rotate: -15deg;
+      z-index: -1;
+    }
+
+    header .btn2{ 
+        display: block;
+        background-color: #eb0707;
+        color: black;
+        font-family: "Yeseva One";
+        font-size: 32px;
+        width: 95px;
+        height: 35px;
+        text-align: center;
+        border-radius: 25px;
+        cursor: pointer;
+        transform:translate(356px, -13px);
+	    }
+  header .btn2:hover{
+	  background-color: #bb0707;
+    color:white;
+	}
+	header .btn2:active{
+	  background-color: #850d0d;
+  }
+
+  header .btn3{ 
+    display: block;
+    background-color: #eb6207;
+	color: black;
+    font-family:"Yeseva One";
+    font-size: 32px;
+    width: 179px;
+    height: 35px;
+    text-align:center;
+    border-radius: 25px;
+    cursor: pointer;
+    transform: translate(458px, -48px);
+    margin:0;
+	}
+ header  .btn3:hover{
+	  background-color: #c2540a;
+    color:white;
+	}
+	header .btn3:active{
+	  background-color: #924009;
+  }
+
+  header .btn4{ 
+    display: block;
+    background-color: #c74380;
+	  color: black;
+    font-family:"Yeseva One";
+    font-size: 32px;
+    width: 179px;
+    height: 35px;
+    text-align:center;
+    border-radius: 25px;
+    cursor: pointer;
+    transform: translate(645px, -83px);
+	}
+  header .btn4:hover{
+	  background-color: #9c3565;
+    color:white;
+	}
+	header .btn4:active{
+	  background-color: #812e55;
+  }
+
+  header .btnc{ 
+    display: inline-block;
+    background-color: #eb0707;
+    color: black;
+    font-family: "Yeseva One";
+    font-size: 32px;
+    width: 130px;
+    height: 38px;
+    text-align: center;
+    border-radius: 25px;
+    transform: translate(1750px, -118px)
+	}
+  
+  header .btnc:hover{
+	  background-color: #bb0707;
+    color:white;
+	}
+	header .btnc:active{
+	  background-color: #850d0d;
+  }
+
+    body{
+      background-color: #2b70e4;
+      margin: 0; 
+      scroll-behavior:auto;
+    }
+
+    main h2{
+      display:inline-block;
+      color:#ffffff;
+      font-size: 45px;
+      font-family: "Archivo Black";
+      margin-left: 4px;
+      transform: translate(0px, -138px);
+    }
+
+   main table {
+    table-layout: fixed;
+    width: 50%;
+    display:inline-block;
+    background-color: white;
+    border-collapse: separate;
+    border-spacing: 0 0px;
+    transform:translate(10px, 10px)
+    }
+    main th, td {
+    border: .5px solid black;
+    padding: 0px;
+    text-align: Center;
+    }
+    main th {
+        font-size: 2.5em;
+        width: 20%;
+        font-family: "Yeseva One";
+        font-weight: bold;
+        }
+    main td {
+        font-size: 2.5em;
+        width: 20%;
+        font-family: "Yeseva One";
+        font-weight: bold;
+        }
+
+    main p{
+      display:inline-block;
+      font-size: 24px;
+      font-family: "Yeseva One", serif;
+      text-shadow: 0px -1px black;
+      text-align: center;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      margin-left: 7px;
+      margin-right: 7px;
+      transform: translate(0px,-29px);
+    }
+
+    main .reviewbox {
+        position: absolute;
+        width: 1884px;
+        height: 153px;
+        background-color: #83c3f7;
+        transform: translate(14px, -173px);
+        z-index: -1;
+        }
+
+    main .reviewbox2 {
+        position: absolute;
+        width: 1892px;
+        height: 121px;
+        background-color: #83c3f7;
+        transform: translate(8px, -130px);
+        z-index: -1;
+        }
+
+        main table.table2{
+          table-layout: fixed;
+          width: 61%;
+          display:inline-block;
+          background-color: white;
+          border-collapse: separate;
+          border-spacing: 0 0px;
+          transform: translate(10px, -85px);
+        }
+
+    main .scream{
+      display:inline;
+    }
+
+    main .godfather{
+      display:inline;
+    }
+
+
+    footer h4{
+        color:#000000;
+        font-size: 15px;
+        font-family: "Archivo Black";
+        text-align: center;  
+      }
+
+
+    footer p{
+        color:#ffffff;
+        font-size: 25px;
+        font-family: "Archivo Black";
+        text-align: left;
+        padding-top: 5px;
+        padding-left: 60px;     
+      }
+
+    @media only screen and (max-width:1024px) 
+  {
+    main p{
+        font-size: 35px;
+        width: 1900px;
+      }
+    main .reviewbox{
+        width: 1899px;
+        height: 286px;
+        transform: translate(10px, -309px);
+    }
+    main h2{
+        width: 766px;
+        font-size: 46px;
+    }
+    main .reviewbox2{
+        width: 1899px;
+        height: 157px;
+        transform: translate(8px, -192px);
+    }
+    main table {
+                width: 75%;
+                transform:translate(1044px, -300px)
+              }
+    main table.table2{
+                width: 75%;
+                transform: translate(1044px, -350px);
+                }
+     footer p{
+        padding-left:18px;
+        text-align:left;  
+      }
+
+  }
+
+  @media only screen and (min-width:1025px) and (max-width:1440px)
+  {
+     main p{
+        font-size: 35px;
+        width: 1900px;
+      }
+    main .reviewbox{
+        width: 1899px;
+        height: 286px;
+        transform: translate(10px, -309px);
+    }
+    
+    main .reviewbox2{
+        width: 1899px;
+        height: 157px;
+        transform: translate(8px, -192px);
+    }
+    main table {
+                width: 50%;
+                transform:translate(950px, -300px)
+              }
+    main table.table2{
+                width: 75%;
+                transform: translate(10px, -100px);
+                }
+    footer p{
+        padding-left:18px;
+        text-align:left;  
+      }
+  }
+
+    @media only screen and (min-width:1441px) and (max-width:1600px)
+    {
+      main p{
+        font-size: 35px;
+        width: 1900px;
+      }
+    main .reviewbox{
+        width: 1899px;
+        height: 286px;
+        transform: translate(10px, -309px);
+    }
+
+    main .reviewbox2{
+        width: 1899px;
+        height: 157px;
+        transform: translate(8px, -192px);
+    }
+    main table {
+                width: 60%;
+                transform:translate(900px, -300px)
+              }
+    main table.table2{
+                width: 70%;
+                transform: translate(10px, -100px);
+                }
+    footer p{
+        padding-left:18px;
+        text-align:left;  
+      }
+  }
+
+     @media only screen and (min-width: 1921px) and (max-width:2560px)
+    {
+       header{
+          width:2568px;
+        }
+        header .btnc{ 
+          transform: translate(2400px, -118px)
+	      }
+
+        main p{
+          font-size:33px;
+        }
+
+    main .reviewbox{
+        width: 2519px;
+        height: 194px;
+        transform: translate(18px, -217px);
+    }
+    main .reviewbox2{
+        width: 2540px;
+        height: 109px;
+        transform: translate(12px, -140px);
+    }  
+    main table {
+                width: 49%;
+                transform:translate(10px, -117px);
+              }
+    main table.table2{
+                width: 44%;
+                transform: translate(-1400px, 10px);
+                }
+      
+    }
+
+  
+    @media only screen and (max-width:915px) 
+   {
+      header{
+          width:1654px;
+        }
+      header h1  {
+        font-size: 75px;
+        transform: translate(6px, 14px);
+      }
+      
+      header .btn2 {
+                  font-size: 53px;
+                  width: 125px;
+                  height: 65px;
+                  transform: translate(3px, -195px);
+                }
+
+      header .btn3 {
+                font-size: 53px;
+                width: 291px;
+                height: 56px;
+                transform: translate(145px, -254px);
+                }
+
+      header .btn4 {
+                font-size: 53px;
+                width: 291px;
+                height: 57px;
+                transform: translate(450px, -309px);
+                }
+
+      header .btnc {   
+                font-size: 53px;
+                width: 213px;
+                height: 54px;
+                transform: translate(619px, -293px);
+                }
+                
+         main h2{
+                font-size: 61px;
+                width: 1645px;
+                transform: translate(0px, -27px);
+              }
+        main .scream{
+                display:inline-block;
+                width: 10px;
+                height:10px;
+                transform: translate(44px, -53px);
+              }
+
+          main p {
+              font-size:55px;
+              width: 1550px;
+              text-shadow: 0px 1px black;
+              transform: translate(75px, -155px);
+              }
+
+          main .reviewbox {
+                width: 1589px;
+                height: 847px;
+                transform: translate(42px, -975px);
+              }
+          main .reviewbox2 {
+                width: 1574px;
+                height: 437px;
+                transform: translate(57px, -595px);
+              }
+
+        main .godfather{
+                display:inline-block;
+                width: 10px;
+                height:10px;
+                transform: translate(32px, -53px);
+              }
+        
+            img {
+                  width: 600px;
+                  height: 650px;
+              }
+            main table {
+                width: 200%;
+                transform:translate(671px, -510px)
+              }
+              main table.table2{
+                width: 200%;
+                transform: translate(700px, -510px);
+                }
+
+              footer p{
+                  font-size:55px;
+                  width: 750px;
+                  padding-left:18px;
+                  text-align:left;  
+                }
+              footer h4{
+                  color:#000000;
+                  font-size: 35px; 
+                }
+        }
+
+ @media only screen and (orientation: landscape) and (max-width:915px)
+   {
+      header{
+        width: 1927px;
+      }
+
+      header h1  {
+        font-size: 75px;
+        transform: translate(6px, 14px);
+      }
+      
+      header .btn2 {
+                  font-size: 53px;
+                  width: 125px;
+                  height: 65px;
+                  transform: translate(580px, -122px);
+                }
+
+      header .btn3 {
+                font-size: 53px;
+                width: 302px;
+                height: 56px;
+                transform: translate(722px, -182px);
+                }
+
+      header .btn4 {
+                font-size: 53px;
+                width: 291px;
+                height: 57px;
+                transform: translate(1042px, -238px);
+                }
+
+      header .btnc {   
+                font-size: 53px;
+                width: 213px;
+                height: 54px;
+                transform: translate(1700px, -293px);
+                }
+         main p {
+                font-size: 55px;
+                width: 1570px;
+                text-shadow: 0px -1px black;
+                transform: translate(75px, -29px);
+              }
+        main .reviewbox {
+                width: 1655px;
+                height: 863px;
+                transform: translate(51px, -858px);
+              }
+        main .reviewbox2 {
+                 width: 1618px;
+                height: 463px;
+                transform: translate(65px, -485px);
+              }
+        main table {
+                width: 100%;
+                transform:translate(671px, -510px)
+              }
+        main table.table2{
+                width: 100%;
+                transform: translate(700px, -510px);
+                }
+    }
+
+
+   
+

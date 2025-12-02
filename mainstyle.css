@@ -1,12 +1,3 @@
-   .red-text {
-        color: red;
-    }
-    .blue-text {
-    color: blue;
-  }
-  .green-text {
-    color: green;
-  }
 
   .archivo-black-regular {
     font-family: "Archivo Black", sans-serif;
@@ -25,6 +16,14 @@
     margin: 0; 
     scroll-behavior:auto;
 }
+  .clapboard{
+    position: absolute;
+    opacity: 0.75;
+    width: 190px;
+    height: 300px;
+    transform: translate(10px, -33px);
+    z-index: -1;
+  }
 
  .transparent-box{
     position: absolute;
@@ -36,10 +35,103 @@
     z-index: -1;
   }
 
+  @media only screen and (max-width:1024px) 
+  {
+     body {
+      min-height: 167vh; 
+      }
+
+    .transparent-box{
+          width:1075px;
+        }
+      a.btnc{
+        transform: translate(650px, -180px);
+        }
+
+  }
+
+
+  @media only screen and (min-width:1025px) and (max-width:1440px)
+  {
+     body {
+      min-height: 167vh; 
+      }
+
+    .transparent-box{
+          width:1490px;
+        }
+      a.btnc{
+        transform: translate(1000px, -180px);
+        }
+  }
+
+  @media only screen and (min-width:1441px) and (max-width:1540px)
+  {
+     body {
+      min-height: 198vh; 
+      }
+
+    .transparent-box{
+          width:1571px;
+        }
+      a.btnc{
+        transform: translate(1132px, -180px);
+        }
+  }
+
+  @media only screen and (min-width:1541px) and (max-width:1600px)
+  {
+     body {
+      min-height: 166.5vh; 
+      }
+
+    .transparent-box{
+          width:1601px;
+        }
+      a.btnc{
+        transform: translate(1195px, -180px);
+        }
+  }
+
+  @media only screen and (min-width: 1601px) and (max-width:1920px)
+  {
+      
+    body {
+      min-height: 150.5vh; 
+      }
+
+    .transparent-box{
+          width:1955px;
+        }
+      a.btnc{
+        transform: translate(1501px, -180px);
+        }
+  }
+  @media only screen and (min-width: 1921px) and (max-width:2560px)
+  {
+      
+    body {
+      min-height: 117vh; 
+      }
+
+    .transparent-box{
+          width:2610px;
+        }
+      a.btnc{
+        transform: translate(2150px, -163px);
+        }
+  }
+
+
   @media only screen and (max-width:915px)
     { 
+      .img2{
+          height: 237px;
+          width: 241px;
+        }
+
       body{
-        min-height: 250vh; 
+        min-height: 205vh; 
         margin: 0;
         scroll-behavior:auto;
       }
@@ -55,9 +147,6 @@
       a.btn4{ 
         margin-right: -200px; 
 	    }
-      a.btnh{ 
-        transform: translate(250px, -250px);
-        }
       a.btnc{
         transform: translate(400px, -180px);
         }
@@ -76,6 +165,11 @@
 
     @media only screen and (orientation: landscape) and (max-width:915px)
   {
+    .img2{
+        height: 183px;
+        width: 239px;
+    }
+    
     body{
         min-height: 450vh; 
         margin: 0;
@@ -93,11 +187,8 @@
       a.btn4{ 
         margin-right: -200px; 
 	    }
-      a.btnh{ 
-        transform: translate(780px, -250px);
-        }
       a.btnc{
-        transform: translate(930px, -180px);
+        transform: translate(896px, -180px);
         }
       .right-video-covers{
         transform: translate(395px, 0px);
@@ -236,7 +327,7 @@
     border-radius: 25px;
     margin-left: 200px;
     margin-right: 0px;
-    transform: translate(1558px, -150px);
+    transform: translate(1501px, -150px);
     cursor: pointer;
 	}
   
@@ -245,29 +336,6 @@
     color:white;
 	}
 	.btnc:active{
-	  background-color: #850d0d;
-  }
-
-  .btnh{ 
-    display: inline-block;
-    background-color: #eb0707;
-	  color: black;
-    font-family:"Yeseva One";
-    font-size: 45px;
-    text-align:center;
-	  padding: 10px 10px;
-    border-radius: 25px;
-    margin-left: 200px;
-    margin-right: 200px;
-    transform: translate(1000px, -150px);
-    cursor: pointer;
-	}
-  
-  .btnh:hover{
-	  background-color: #bb0707;
-    color:white;
-	}
-	.btnh:active{
 	  background-color: #850d0d;
   }
 
