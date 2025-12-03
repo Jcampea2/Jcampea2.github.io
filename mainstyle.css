@@ -39,7 +39,7 @@
   @media only screen and (max-width:1024px) 
   {
      body {
-      min-height: 151vh; 
+      min-height: 184vh; 
       }
 
     .transparent-box{
@@ -55,7 +55,7 @@
   @media only screen and (min-width:1025px) and (max-width:1440px)
   {
      body {
-      min-height: 150vh; 
+      min-height: 180vh; 
       }
 
     .transparent-box{
@@ -112,7 +112,7 @@
   {
       
     body {
-      min-height: 151vh; 
+      min-height: 181vh; 
       }
 
     .transparent-box{
@@ -132,7 +132,7 @@
         }
 
       body{
-        min-height: 367vh; 
+        min-height: 227vh; 
         margin: 0;
         scroll-behavior:auto;
       }
@@ -149,7 +149,7 @@
         margin-right: -200px; 
 	    }
       a.btnc{
-        transform: translate(753px, -155px);
+        transform: translate(300px, -155px);
         }
       .right-video-covers{
         transform: translate(395px, 0px);
@@ -160,7 +160,7 @@
         }
         .transparent-box{
           height: 250px;
-         width: 1183px;
+          width: 735px;
         }
     }
 
@@ -171,7 +171,7 @@
       width: 219px
     }
     body{
-        min-height: 221vh; 
+        min-height: 550vh; 
         margin: 0;
         scroll-behavior:auto;
       }
@@ -188,7 +188,7 @@
         margin-right: -200px; 
 	    }
       a.btnc{
-        transform: translate(896px, -180px);
+        transform: translate(740px, -180px);
         }
       .right-video-covers{
         transform: translate(395px, 0px);
@@ -199,7 +199,7 @@
         }
       .transparent-box{
         height: 200px;
-        width: 1330px;
+        width: 1179px;
       }
   }
 
@@ -353,6 +353,4 @@
     right: 250px;
     width: 0;
     z-index: -2;
-
   }
-
