@@ -132,7 +132,7 @@
         }
 
       body{
-        min-height: 193vh; 
+        min-height: 367vh; 
         margin: 0;
         scroll-behavior:auto;
       }
@@ -353,4 +353,5 @@
     right: 250px;
     width: 0;
     z-index: -2;
+
   }
