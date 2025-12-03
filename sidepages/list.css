@@ -16,9 +16,9 @@
     .reel{
       position: absolute;
       opacity: 0.75;
-      width: 749px;
-      height: 113px;
-      transform: translate(-59px, 21px);
+      width: 100px;
+      height: 15px;
+      transform: translate(-2px, -122px);
       rotate: 22deg;
       z-index: -1;
     }
@@ -27,9 +27,9 @@
       position: absolute;
       float: right;
       opacity: 0.75;
-      width: 866px;
-      height: 16px;
-      transform: translate(1048px, 389px);
+      width: 793px;
+      height: 7px;
+      transform: translate(1048px, 395px);
       rotate: -15deg;
       z-index: -1;
     }
@@ -120,25 +120,169 @@
 	  background-color: #850d0d;
   }
 
+  body{ 
+    background-color:#e483b0;
+    margin: 0; 
+    scroll-behavior:auto;
+    }
+  
+  main h2{
+    font-family: "Archivo Black";
+    font-size: 45px;
+    margin-left: 19px;
+    margin-right: 19px;
+    text-align: center;
+    }
+
+  main .boxlist{
+    position: absolute;
+    width: 1044px;
+    height: 819px;
+    margin-right: 79px;
+    margin-left: 100px;
+    background-color: #b10756;
+    transform: translate(376px, -8px);
+    z-index: -1;
+    }
+
+  main ul.f{
+    list-style-image: url('favicon_clapper/favicon-32x32.png');
+    padding: 0px 500px;
+    margin-left: 19px;
+    margin-right: 19px;
+    }
+
+  Main p{
+    color:#ffff;
+    font-size: 35px;
+    font-family: "Yeseva One";
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 1000px;
+    }
+
+  footer p{
+    color:#ffff;
+    font-size: 25px;
+    font-family: "Yeseva One";
+    text-align: center;
+    width: 2000px;
+    }
+  footer h4{
+    color:#000000;
+    font-size: 15px;
+    font-family: "Yeseva One";
+    text-align: center;
+    width: 2000px;
+    }
+
+    @media only screen and (max-width:1024px) 
+    {
+      header {
+        width:2008px;
+      }
+
+      header h1 {
+        transform:translate(10px, 62px);
+      }
+
+      header .btnc {
+        transform:translate(1849px, -118px)
+      }
+
+      .reelright {
+        transform:translate(1103px, 405px);
+      }
+
+    }
+
+    @media only screen and (min-width:1025px) and (max-width:1440px)
+    {
+      header {
+        width:2009px;
+      }
+
+      header h1 {
+        transform:translate(10px, 62px);
+      }
+
+      .reelright {
+        transform:translate(1103px, 405px);
+      }
+
+      main h2 {
+        margin-right: -495px;
+      }
+
+    }
+
+    @media only screen and (min-width:1441px) and (max-width:1600px)
+    {
+      header {
+        width:2056px;
+      }
+
+      header .btnc {
+        transform:translate(1890px, -118px)
+      }
+
+      .reelright {
+        transform:translate(1150px, 432px);
+      }
+
+      main h2 {
+        margin-left: 500px;
+      }
+
+    }
+
     @media only screen and (min-width: 1921px) and (max-width:2560px)
     {
       header {
-        width: 2507px; 
+        width: 2569px; 
         }
+
+      .reelright{
+        transform: translate(1650px, 552px);
+      }
+
       header .btnc  {
-        transform: translate(2349px, -118px);
+        transform: translate(2389px, -118px);
+      }
+
+      main ul.f{
+        margin-left: 280px;
+      }
+
+      main .boxlist{
+        width: 1089px;
+        transform: translate(598px, -8px);
+      }
+
+      footer p{
+        width: 2400px;
+      }
+
+      footer h4{
+        font-size: 20px;
+        width: 2400px;
       }
     }
 
     @media only screen and (max-width:915px) 
    {
       header{
-          width:1000px;
+          width:1009px;
         }
 
       header h1  {
         font-size: 75px;
         transform: translate(2px, 14px);
+      }
+
+      .reel{
+          transform: translate(-57px, -140px);
       }
       
       header .btn {
@@ -169,6 +313,36 @@
                 transform: translate(553px, -293px);
                 }
 
+      main h2{
+                margin-left: -63px;
+                width: 1056px;
+              }
+
+      main .boxlist{
+                width: 896px;
+                height: 1450px;
+                transform:translate(-62px, -8px);
+      }
+
+      main ul.f{
+                padding: 0px 69px;
+      }
+
+      main p{
+                font-size: 45px;
+                width: 845px;
+      }
+
+      footer p{
+                font-size:42px;
+                width:1000px;
+      }
+
+      footer h4{
+                font-size:28px;
+                width:1000px;
+      }
+
     }
 
  @media only screen and (orientation: landscape) and (max-width:915px)
@@ -180,6 +354,11 @@
       header h1  {
         font-size: 75px;
         transform: translate(2px, 14px);
+      }
+
+      .reel{
+          transform: translate(-48px, -159px);
+          rotate: 24deg;  
       }
       
       header .btn {
@@ -209,20 +388,33 @@
                 height: 54px;
                 transform: translate(1700px, -293px);
                 }
+      main h2 {
+                margin-left: 0px;
+                width: 1500px;
+                transform: translate(236px, 0px);
+      }
+
+      main .boxlist {
+                width: 1857px;
+                height: 800px;
+                margin-right: 0px;
+      }
+
+      main p{
+                font-size: 37px;
+                width: 1816px;
+      }
+
+      footer p{
+                font-size:33px;
+                width:1000px;
+                transform: translate(450px, 0px);
+      }
+
+      footer h4 {
+                font-size: 24px;
+                width: 1000px;
+                transform: translate(450px, 0px);
+      }
+
     }
-
-    body{
-      
-    }
-
-    main h2{
-      
-    }
-
-    main p{
-      
-    }
-
-
-   
-

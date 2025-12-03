@@ -16,9 +16,9 @@
     .reel{
       position: absolute;
       opacity: 0.75;
-      width: 749px;
-      height: 113px;
-      transform: translate(-59px, 21px);
+      width: 100px;
+      height: 15px;
+      transform: translate(-2px, -122px);
       rotate: 22deg;
       z-index: -1;
     }
@@ -27,9 +27,9 @@
       position: absolute;
       float: right;
       opacity: 0.75;
-      width: 866px;
-      height: 16px;
-      transform: translate(1048px, 389px);
+      width: 793px;
+      height: 7px;
+      transform: translate(1048px, 395px);
       rotate: -15deg;
       z-index: -1;
     }
@@ -229,6 +229,11 @@
       header {
         width: 2568px; 
         }
+
+      .reelright{
+        transform: translate(1649px, 546px);
+      }
+        
       header .btnc  {
         transform: translate(2349px, -118px);
         }

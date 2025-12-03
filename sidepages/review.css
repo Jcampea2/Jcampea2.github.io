@@ -10,15 +10,15 @@
     header h1  {
       font-size: 45px;
       font-family: "Archivo Black";
-      transform: translate(10px, 62px);
+      transform: translate(7px, 62px);
     }
 
     .reel{
       position: absolute;
       opacity: 0.75;
-      width: 749px;
-      height: 113px;
-      transform: translate(-59px, 21px);
+      width: 742px;
+      height: 42px;
+      transform: translate(-48px, -109px);
       rotate: 22deg;
       z-index: -1;
     }
@@ -29,7 +29,7 @@
       opacity: 0.75;
       width: 866px;
       height: 16px;
-      transform: translate(1048px, 389px);
+      transform: translate(1045px, 277px);
       rotate: -15deg;
       z-index: -1;
     }
@@ -51,6 +51,7 @@
 	  background-color: #bb0707;
     color:white;
 	}
+  
 	header .btn2:active{
 	  background-color: #850d0d;
   }
@@ -58,7 +59,7 @@
   header .btn3{ 
     display: block;
     background-color: #eb6207;
-	color: black;
+	  color: black;
     font-family:"Yeseva One";
     font-size: 32px;
     width: 179px;
@@ -69,13 +70,16 @@
     transform: translate(458px, -48px);
     margin:0;
 	}
+
  header  .btn3:hover{
 	  background-color: #c2540a;
     color:white;
 	}
+
 	header .btn3:active{
 	  background-color: #924009;
   }
+
 
   header .btn4{ 
     display: block;
@@ -90,10 +94,12 @@
     cursor: pointer;
     transform: translate(645px, -83px);
 	}
+
   header .btn4:hover{
 	  background-color: #9c3565;
     color:white;
 	}
+
 	header .btn4:active{
 	  background-color: #812e55;
   }
@@ -115,6 +121,7 @@
 	  background-color: #bb0707;
     color:white;
 	}
+
 	header .btnc:active{
 	  background-color: #850d0d;
   }
@@ -134,26 +141,29 @@
       transform: translate(0px, -138px);
     }
 
-   main table {
-    table-layout: fixed;
-    width: 50%;
-    display:inline-block;
-    background-color: white;
-    border-collapse: separate;
-    border-spacing: 0 0px;
-    transform:translate(10px, 10px)
-    }
+    main table {
+        table-layout: fixed;
+        width: 50%;
+        display:inline-block;
+        background-color: white;
+        border-collapse: separate;
+        border-spacing: 0 0px;
+        transform:translate(10px, 10px)
+        }
+
     main th, td {
-    border: .5px solid black;
-    padding: 0px;
-    text-align: Center;
-    }
+        border: .5px solid black;
+        padding: 0px;
+        text-align: Center;
+        }
+
     main th {
         font-size: 2.5em;
         width: 20%;
         font-family: "Yeseva One";
         font-weight: bold;
         }
+
     main td {
         font-size: 2.5em;
         width: 20%;
@@ -210,14 +220,12 @@
       display:inline;
     }
 
-
     footer h4{
         color:#000000;
         font-size: 15px;
         font-family: "Archivo Black";
         text-align: center;  
       }
-
 
     footer p{
         color:#ffffff;
@@ -234,28 +242,34 @@
         font-size: 35px;
         width: 1900px;
       }
+
     main .reviewbox{
         width: 1899px;
         height: 286px;
         transform: translate(10px, -309px);
     }
+
     main h2{
         width: 766px;
         font-size: 46px;
     }
+
     main .reviewbox2{
         width: 1899px;
         height: 157px;
         transform: translate(8px, -192px);
     }
+
     main table {
                 width: 75%;
                 transform:translate(1044px, -300px)
               }
+
     main table.table2{
                 width: 75%;
                 transform: translate(1044px, -350px);
                 }
+
      footer p{
         padding-left:18px;
         text-align:left;  
@@ -265,10 +279,15 @@
 
   @media only screen and (min-width:1025px) and (max-width:1440px)
   {
+    .reelright{
+        transform: translate(1059px, 277px);      
+        }
+
      main p{
         font-size: 35px;
         width: 1900px;
       }
+
     main .reviewbox{
         width: 1899px;
         height: 286px;
@@ -280,14 +299,17 @@
         height: 157px;
         transform: translate(8px, -192px);
     }
+
     main table {
                 width: 50%;
                 transform:translate(950px, -300px)
               }
+
     main table.table2{
                 width: 75%;
                 transform: translate(10px, -100px);
                 }
+
     footer p{
         padding-left:18px;
         text-align:left;  
@@ -296,10 +318,12 @@
 
     @media only screen and (min-width:1441px) and (max-width:1600px)
     {
-      main p{
+  
+    main p{
         font-size: 35px;
         width: 1900px;
       }
+
     main .reviewbox{
         width: 1899px;
         height: 286px;
@@ -311,14 +335,17 @@
         height: 157px;
         transform: translate(8px, -192px);
     }
+
     main table {
                 width: 60%;
                 transform:translate(900px, -300px)
               }
+
     main table.table2{
                 width: 70%;
                 transform: translate(10px, -100px);
                 }
+
     footer p{
         padding-left:18px;
         text-align:left;  
@@ -330,6 +357,13 @@
        header{
           width:2568px;
         }
+
+      .reelright{
+        width: 866px;
+        height: 16px;
+        transform: translate(1682px, 434px);      
+        }
+
         header .btnc{ 
           transform: translate(2400px, -118px)
 	      }
@@ -343,11 +377,13 @@
         height: 194px;
         transform: translate(18px, -217px);
     }
+
     main .reviewbox2{
         width: 2540px;
         height: 109px;
         transform: translate(12px, -140px);
     }  
+
     main table {
                 width: 49%;
                 transform:translate(10px, -117px);
@@ -365,9 +401,17 @@
       header{
           width:1654px;
         }
+        
       header h1  {
         font-size: 75px;
         transform: translate(6px, 14px);
+      }
+
+      .reel{
+          width: 100px;
+          height: 42px;
+          transform: translate(800px, -488px);
+          rotate: 4deg;  
       }
       
       header .btn2 {
@@ -422,6 +466,7 @@
                 height: 847px;
                 transform: translate(42px, -975px);
               }
+
           main .reviewbox2 {
                 width: 1574px;
                 height: 437px;
@@ -434,15 +479,18 @@
                 height:10px;
                 transform: translate(32px, -53px);
               }
+
         
             img {
                   width: 600px;
                   height: 650px;
               }
+
             main table {
                 width: 200%;
                 transform:translate(671px, -510px)
               }
+
               main table.table2{
                 width: 200%;
                 transform: translate(700px, -510px);
@@ -454,6 +502,7 @@
                   padding-left:18px;
                   text-align:left;  
                 }
+
               footer h4{
                   color:#000000;
                   font-size: 35px; 
@@ -469,6 +518,18 @@
       header h1  {
         font-size: 75px;
         transform: translate(6px, 14px);
+      }
+      
+      .img2{
+        width: 400px;
+        height: 300px;
+      }
+
+      .reel{
+          width: 61px;
+          height: 0px;
+          transform: translate(-76px, -401px);
+          rotate: 29deg;
       }
       
       header .btn2 {
@@ -498,32 +559,33 @@
                 height: 54px;
                 transform: translate(1700px, -293px);
                 }
+
          main p {
                 font-size: 55px;
                 width: 1570px;
                 text-shadow: 0px -1px black;
                 transform: translate(75px, -29px);
               }
+
         main .reviewbox {
                 width: 1655px;
                 height: 863px;
                 transform: translate(51px, -858px);
               }
+
         main .reviewbox2 {
                  width: 1618px;
                 height: 463px;
                 transform: translate(65px, -485px);
               }
+
         main table {
                 width: 100%;
                 transform:translate(671px, -510px)
               }
+
         main table.table2{
                 width: 100%;
                 transform: translate(700px, -510px);
                 }
     }
-
-
-   
-

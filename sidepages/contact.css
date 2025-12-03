@@ -1,0 +1,265 @@
+ body{
+        background-color: #880a0a;
+	    height: 150px; 
+        width: 1928px;
+        transform: translate(-8px, -8px);
+        }
+
+    .clapboard{
+        position: absolute;
+        opacity: 0.75;
+        width: 190px;
+        height: 300px;
+        transform: translate(49px, 9px);
+        z-index: -1;
+    }
+    
+    .reel{
+        position: absolute;
+        opacity: 0.75;
+        width: 100px;
+        height: 47px;
+        transform: translate(715px, 5px);
+        rotate: 0deg;
+        z-index: -1;
+    }
+
+    .btn{ 
+        display: block;
+        background-color: #c8eb07;
+        color: black;
+        font-family: "Yeseva One";
+        font-size: 32px;
+        width: 225px;
+        height: 38px;
+        text-align: center;
+        border-radius: 25px;
+        cursor: pointer;
+        transform: translate(700px, 43px);
+        margin: 0;
+	}
+
+    .btn:hover{
+	    background-color: #acc717;
+        color:white;
+	}
+
+    .btn:active{
+	    background-color: #5d6d05;
+    }
+
+    .btn2{ 
+        display: block;
+        background-color: #eb0707;
+        color: black;
+        font-family: "Yeseva One";
+        font-size: 32px;
+        width: 152px;
+        height: 41px;
+        text-align: center;
+        border-radius: 25px;
+        cursor: pointer;
+        transform: translate(1024px, 4px);
+	}
+
+    .btn2:hover{
+	    background-color: #bb0707;
+        color:white;
+	}
+  
+	.btn2:active{
+	    background-color: #850d0d;
+    }
+
+    .btn3{ 
+        display: block;
+        background-color: #eb6207;
+        color: black;
+        font-family: "Yeseva One";
+        font-size: 32px;
+        width: 211px;
+        height: 41px;
+        text-align: center;
+        border-radius: 25px;
+        cursor: pointer;
+        transform: translate(1282px, -36px);
+        margin: 0;
+	}
+
+    .btn3:hover{
+	    background-color: #c2540a;
+        color:white;
+	}
+
+	.btn3:active{
+	    background-color: #924009;
+    }
+
+    .btn4{ 
+        display: block;
+        background-color: #c74380;
+        color: black;
+        font-family: "Yeseva One";
+        font-size: 32px;
+        width: 230px;
+        height: 45px;
+        text-align: center;
+        border-radius: 25px;
+        cursor: pointer;
+        transform: translate(1600px, -77px);;
+	}
+
+    .btn4:hover{
+	    background-color: #9c3565;
+        color:white;
+	}
+
+	.btn4:active{
+	  background-color: #812e55;
+    }
+
+    .btnb{ 
+        display: block;
+        background-color: #2b70e4;
+        color: white;
+        font-family: "Yeseva One";
+        font-size: 32px;
+        width: 336px;
+        height: 45px;
+        text-align: center;
+        border-radius: 25px;
+        cursor: pointer;
+        transform: translate(40px, 85px);
+	}
+
+   .btnb:hover{
+	    background-color: #204fa1;
+        color:black;
+	}
+
+	.btnb:active{
+	    background-color: #1c407e;
+    }
+
+      h1  {
+      font-size: 65px;
+      width: 1000px;
+      font-family: "Archivo Black";
+      transform: translate(550px, 62px);
+    }
+
+      h2 {
+        font-size: 25px;
+        color: #ffff;
+        font-family: "Archivo Black";
+        transform: translate(10px, -70px);
+        margin-left: 1000px;
+        width: 800px;
+    }
+
+    footer{
+        width: 100px;
+    }
+
+    footer h4{
+        font-size: 25px;
+        color: #000000;
+        font-family: "Archivo Black";
+        transform: translate(400px, 12px);
+        text-align: center;
+        width: 1000px;
+      }
+    @media only screen and (max-width:1024px)
+    {
+        h2{
+            font-size:40px;
+        }
+
+        footer h4{
+            font-size:35px;
+        }
+
+    }
+
+    @media only screen and (min-width: 1921px) and (max-width:2560px)
+    {
+        .reel{
+            width: 100px;
+            height: 47px;
+            transform: translate(715px, 5px);
+        }
+
+        .img3{
+            width:1845px;
+        }
+
+        .btn{
+            transform: translate(1060px, 43px);
+        }
+
+        .btn2{
+            transform: translate(1450px, 4px);
+        }
+
+        .btn3{
+            transform: translate(1800px, -36px);
+        }
+
+        .btn4{
+            transform: translate(2150px, -77px);
+        }
+
+        footer h4{
+            transform:translate(429px, 12px);    
+        }
+    }
+
+    @media only screen and (max-width:915px)
+    {
+        .btn{
+            font-size: 44px;
+            width: 364px;
+            height: 100px;
+            transform: translate(613px, -20px);
+        }
+
+        .btn2{
+            font-size: 45px;
+            width: 172px;
+            height: 114px;
+            transform: translate(1024px, -129px);
+        }
+
+        .btn3{
+            font-size: 52px;
+            width: 261px;
+            height: 97px;
+            transform: translate(1282px, -236px);
+        }
+
+        .btn4{
+            font-size: 45px;
+            width: 241px;
+            height: 101px;
+            transform: translate(1612px, -335px);
+        }
+
+        .btnb{
+            font-size: 48px;
+            width: 370px;
+            height: 117px;
+        }
+
+        h1{
+            font-size:95px;
+        }
+
+        h2{
+            font-size:60px;
+        }
+
+        footer h4{
+            font-size:45px;
+        }
+
+    }

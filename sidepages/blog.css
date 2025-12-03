@@ -10,15 +10,15 @@
     header h1  {
       font-size: 45px;
       font-family: "Archivo Black";
-      transform: translate(14px, 62px);
+      transform: translate(10px, 62px);
     }
 
     .reel{
       position: absolute;
       opacity: 0.75;
-      width: 749px;
-      height: 113px;
-      transform: translate(-59px, 21px);
+      width: 100px;
+      height: 15px;
+      transform: translate(-2px, -122px);
       rotate: 22deg;
       z-index: -1;
     }
@@ -27,13 +27,12 @@
       position: absolute;
       float: right;
       opacity: 0.75;
-      width: 866px;
-      height: 16px;
-      transform: translate(1048px, 389px);
+      width: 793px;
+      height: 7px;
+      transform: translate(1048px, 395px);
       rotate: -15deg;
       z-index: -1;
     }
-
 
     header .btn{ 
         display: block;
@@ -49,13 +48,15 @@
         transform: translate(159px, -48px);;
         margin:0;
 	    }
-  header  .btn:hover{
-	  background-color: #acc717;
-    color:white;
-	}
-	header .btn:active{
-	  background-color: #5d6d05;
-  }
+
+    header  .btn:hover{
+	      background-color: #acc717;
+        color:white;
+	    }
+
+	  header .btn:active{
+	      background-color: #5d6d05;
+      }
 
     header .btn3{ 
         display: block;
@@ -71,57 +72,61 @@
         transform: translate(375px, -14px);
         margin:0;
 	    }
-  header .btn3:hover{
-	  background-color: #c2540a;
-    color:white;
-	}
-	header .btn3:active{
-	  background-color: #924009;
-  }
 
-  header .btn4{ 
-    display: block;
-    background-color: #c74380;
-	color: black;
-    font-family:"Yeseva One";
-    font-size: 32px;
-    width: 179px;
-    height: 35px;
-    text-align:center;
-    border-radius: 25px;
-    cursor: pointer;
-    transform: translate(569px, -83px);
-	}
-  header .btn4:hover{
-	  background-color: #9c3565;
-    color:white;
-	}
-	header .btn4:active{
-	  background-color: #812e55;
-  }
+    header .btn3:hover{
+	      background-color: #c2540a;
+        color:white;
+	    } 
 
-  header .btnc{ 
-    display: inline-block;
-    background-color: #eb0707;
-    color: black;
-    font-family: "Yeseva One";
-    font-size: 32px;
-    width: 130px;
-    height: 38px;
-    text-align: center;
-    border-radius: 25px;
-    transform: translate(1750px, -118px)
-	}
+	  header .btn3:active{
+	      background-color: #924009;
+      } 
+
+    header .btn4{ 
+      display: block;
+      background-color: #c74380;
+	    color: black;
+      font-family:"Yeseva One";
+      font-size: 32px;
+      width: 179px;
+      height: 35px;
+      text-align:center;
+      border-radius: 25px;
+      cursor: pointer;
+      transform: translate(569px, -83px);
+	    } 
+
+    header .btn4:hover{
+	      background-color: #9c3565;
+        color:white;
+	    }
+
+	  header .btn4:active{
+	      background-color: #812e55;
+      } 
+
+    header .btnc{ 
+      display: inline-block;
+      background-color: #eb0707;
+      color: black;
+      font-family: "Yeseva One";
+      font-size: 32px;
+      width: 130px;
+      height: 38px;
+      text-align: center;
+      border-radius: 25px;
+      transform: translate(1750px, -118px)
+	  }
   
-  header .btnc:hover{
-	  background-color: #f12222;
-    color:white;
-	}
-	header .btnc:active{
-	  background-color: #850d0d;
-  }
-   
+    header .btnc:hover{
+	    background-color: #bb0707;
+      color:white;
+	  }
 
+	  header .btnc:active{
+	    background-color: #850d0d;
+    }
+   
     body{
       background-color: #000000;
       margin: 0; 
@@ -182,42 +187,42 @@
       }
 
     main label{
-      color: #ffffff;
-      font-size: 20px;
-      font-family: "Yeseva One";
-      margin-left: 650px;
-    }
+        color: #ffffff;
+        font-size: 20px;
+        font-family: "Yeseva One";
+        margin-left: 650px;
+      }
     main input{
-      width: 250px;
-      align-items:center;
-      margin-left: 650px;
-    }
+        width: 250px;
+        align-items:center;
+        margin-left: 650px;
+      }
     
     main textarea{
-      width: 750px;
-      margin-left: 650px;
-    }
+        width: 750px;
+        margin-left: 650px;
+      }
 
     main button{
-      width: 150px;
-      height: 60px;
-      text-align: center;
-      margin-left: 850px;
-    }
+        width: 150px;
+        height: 60px;
+        text-align: center;
+        margin-left: 850px;
+      }
 
     footer p{
-      color: #ffffff;
-      font-size: 25px;
-      font-family: "Yeseva One";
-      margin-left: 100px;
-    }
+        color: #ffffff;
+        font-size: 25px;
+        font-family: "Yeseva One";
+        margin-left: 100px;
+      }
 
     footer h4{
-      color: #ffffff;
-      font-size: 15px;
-      font-family: "Yeseva One";
-      margin-left: 850px;
-    }
+        color: #ffffff;
+        font-size: 15px;
+        font-family: "Yeseva One";
+        margin-left: 850px;
+      }
 
     @media only screen and (max-width:1024px) 
     {
@@ -297,6 +302,10 @@
         width: 2568px; 
         }
 
+      .reelright{
+        transform: translate(1626px, 555px);
+      }
+
       header .btnc  {
         transform: translate(2349px, -118px);
       }
@@ -336,6 +345,11 @@
       header h1  {
         font-size: 75px;
         transform: translate(10px, -1px);
+      }
+
+      .reel{
+          transform: translate(-24px, -149px);
+          rotate: 24deg;  
       }
       
       header .btn {
@@ -499,9 +513,4 @@
                 margin-left: 900px        
       }
 
-    }
-    
-    
-  
-   
-
+    }    
