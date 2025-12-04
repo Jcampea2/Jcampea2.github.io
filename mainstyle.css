@@ -189,7 +189,7 @@
         margin-right: -200px; 
 	    }
       a.btnc{
-        transform: translate(949px, -180px);
+        transform: translate(948px, -180px);
         }
       .right-video-covers{
         transform: translate(447px, 0px);
@@ -200,7 +200,7 @@
         }
       .transparent-box{
         height: 200px;
-        width: 1379px;
+        width: 1381px;
       }
   }
 
@@ -356,6 +356,7 @@
     z-index: -2;
 
   }
+
 
 
 
