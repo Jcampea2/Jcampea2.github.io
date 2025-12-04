@@ -69,7 +69,7 @@
   @media only screen and (min-width:1441px) and (max-width:1540px)
   {
      body {
-      min-height: 127.5vh; 
+      min-height: 197.5vh; 
       }
 
     .transparent-box{
@@ -354,4 +354,5 @@
     right: 250px;
     width: 0;
     z-index: -2;
+
   }
