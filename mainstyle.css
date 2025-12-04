@@ -39,7 +39,7 @@
   @media only screen and (max-width:1024px) 
   {
      body {
-      min-height: 184vh; 
+      min-height: 226vh; 
       }
 
     .transparent-box{
@@ -55,7 +55,7 @@
   @media only screen and (min-width:1025px) and (max-width:1440px)
   {
      body {
-      min-height: 180vh; 
+      min-height: 226vh; 
       }
 
     .transparent-box{
@@ -112,7 +112,7 @@
   {
       
     body {
-      min-height: 181vh; 
+      min-height: 128vh; 
       }
 
     .transparent-box{
@@ -172,7 +172,7 @@
       width: 219px
     }
     body{
-        min-height: 550vh; 
+        min-height: 469vh; 
         margin: 0;
         scroll-behavior:auto;
       }
@@ -192,7 +192,7 @@
         transform: translate(805px, -180px);
         }
       .right-video-covers{
-        transform: translate(395px, 0px);
+        transform: translate(447px, 0px);
       }
         img{
           height: 570px; 
@@ -356,3 +356,4 @@
     z-index: -2;
 
   }
+
