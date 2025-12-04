@@ -165,7 +165,7 @@
         font-size: 25px;
         color: #000000;
         font-family: "Archivo Black";
-        transform: translate(400px, 12px);
+        transform: translate(400px, 20px);
         text-align: center;
         width: 1000px;
       }
@@ -261,5 +261,6 @@
         footer h4{
             font-size:45px;
         }
+
 
     }
