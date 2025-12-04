@@ -8,6 +8,7 @@
         }
 
     header h1  {
+	  color: #262626;
       font-size: 45px;
       font-family: "Archivo Black";
       transform: translate(10px, 62px);
@@ -514,3 +515,4 @@
       }
 
     }    
+
