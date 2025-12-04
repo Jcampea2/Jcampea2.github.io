@@ -172,7 +172,7 @@
       width: 219px
     }
     body{
-        min-height: 469vh; 
+        min-height: 412vh; 
         margin: 0;
         scroll-behavior:auto;
       }
@@ -189,7 +189,7 @@
         margin-right: -200px; 
 	    }
       a.btnc{
-        transform: translate(805px, -180px);
+        transform: translate(949px, -180px);
         }
       .right-video-covers{
         transform: translate(447px, 0px);
@@ -200,7 +200,7 @@
         }
       .transparent-box{
         height: 200px;
-        width: 1207px;
+        width: 1379px;
       }
   }
 
@@ -356,5 +356,6 @@
     z-index: -2;
 
   }
+
 
 
